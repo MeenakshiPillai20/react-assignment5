@@ -18,7 +18,7 @@ function App() {
     <ParentComp/>
     <p>In this example we have made a parentcomp.js file and two other JS file. One is comp.js and other one purecomp.js. In all the three files we have rendered it on console with there names and in parent component we have made a state name with Meenakshi and also made ComponentDidMount and inside Thai one set inerval is there with 2 seconds with which we call state name and again set it Meenakshi. So In console all the three component will render itself once but then after then every 2 sec only parent component and Component will re-render because  parent  component re-render so all child component will also re-rendered unless and until the component  shouldComponentUpdate method is false but pure component do not re-render itself.</p>
 
-    <h2> 1. Example of Higher Order Component? </h2>
+    <h2> 2. Example of Higher Order Component? </h2>
     <p> 
       <span> Ans.</span> Higher-order components or HOC is the advanced method of reusing the component functionality logic. It simply takes the original component and returns the enhanced component.
     </p>
