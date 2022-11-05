@@ -1,38 +1,96 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:cursive;
+}
+
+.container{
+  background-image: linear-gradient(to top left,rgb(50, 195, 205), rgb(253, 252, 152),yellowgreen);
+  padding: 20px;
+}
+h1{
+  color: rgb(59, 8, 8);
+
+  font-weight: bolder;
   text-align: center;
+  margin-bottom: 30px;
 }
+h2{
+  color: brown;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  font-weight: bolder;
+  margin: 10px 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3{
+  color: rgb(31, 1, 1);
+  text-align: center;
+  font-weight: bolder;
+  margin: 10px 20px;
 }
+span{
+  color: brown;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-weight: bolder;
 }
-
-.App-link {
-  color: #61dafb;
+pre{
+  font-size: large;
 }
+.pre{
+  color: rgb(49, 1, 1);
+  
+  font-weight: bolder;
+  font-size: 20px;
+  width: 500px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin: 40px;
+  border: 5px solid brown;
+  border-radius: 20px;
+}
+p{
+  color: rgb(58, 7, 7);
+
+  margin: 20px;
+  text-align: justify;
+  font-weight: bold;
+  font-size: 17px;
+}
+.output{
+  margin: 10px;
+  color: rgb(0, 1, 63);
+  font-size: 20px;
+  text-decoration:underline;
+  font-weight: bolder;
+}
+.box{
+  color: rgb(49, 1, 1);
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+  width: 500px;
+  /* height: 220px; */
+  margin: 30px;
+  padding-top: 30px;
+  border: 5px solid brown;
+  border-radius: 20px;
+  background-color: white;
+}
+button{
+
+  margin: 30px;
+  color: rgb(0, 1, 63);
+  font-size: 20px;
+  font-weight: bolder;
+  display: inline-block;
+  background-color: greenyellow; 
+  padding: 10px;
+  border-radius: 10px;
+  color: maroon;
+}
+#text,.timer,#content,#newContent{
+  margin-bottom: 30px;
+}
+#HH,#MM,#SS{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
 }
