@@ -7,7 +7,7 @@ import ParentComp from './Component/ParentComp';
 function App() {
   return (
     <div class="container">
-        <h1>Day 1 Interview Questions</h1>
+        <h1> React Assignment 5</h1>
     <h2> 1. Example of React Pure Component? </h2>
     <p> 
       <span> Ans.</span> We can create a component by extending the pure component class. A pure component implements the shouldcomponentupdate life cycle method by performing a Shallow comparison on the props and state of the component. 
